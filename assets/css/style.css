@@ -14,6 +14,12 @@ body {
 
 /* start of header style */
 
+.noStyle {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
