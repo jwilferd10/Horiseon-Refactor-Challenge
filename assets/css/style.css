@@ -20,13 +20,26 @@ body {
     padding-bottom: 20px;
 }
 
+.img-shadow {
+    box-shadow: 0px 5px 10px black;
+}
+
 .box-shadow {
     box-shadow: 1px 5px 10px black;
+}
+
+.br-1 {
+    border-radius: 10px;
 }
 
 .br-5 {
     border-radius: 50px;
 }
+
+.benefits-filter {
+    filter: drop-shadow(0px 6px 4px #363636);
+}
+
 /* start of header style */
 
 .noStyle {
@@ -126,6 +139,7 @@ p {
 /* increases the height of .content's img's */
 .content div img {
     max-height: 200px;
+    margin: 20px 25px 15px 0px
 }
 
 /* modifies all h2's within .content */
