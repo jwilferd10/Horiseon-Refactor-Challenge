@@ -55,9 +55,12 @@ body {
 /* start of header style */
 
 .noStyle {
-    text-decoration: none;
     color: inherit;
     cursor: pointer;
+}
+
+.noTextDecor {
+    text-decoration: none;
 }
 
 .header {
@@ -98,12 +101,12 @@ body {
     text-decoration: none;
 }
 
-.header nav ul li a {
+.hoverEffect {
     padding: 10px 15px;
 }
 
-.header nav ul li a:hover {
-    background: #3780a5;
+.hoverEffect:hover {
+    background: #45a1cf;
     border-radius: 10px;
     text-shadow: none;
 }
