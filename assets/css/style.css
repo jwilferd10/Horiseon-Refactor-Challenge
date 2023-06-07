@@ -36,8 +36,20 @@ body {
     border-radius: 50px;
 }
 
-.benefits-filter {
-    filter: drop-shadow(0px 6px 4px #363636);
+/* .benefits-filter {
+    filter: drop-shadow(0px 6px 4px #c7c7c764);
+} */
+
+.benefitsFilter-1 {
+    filter: drop-shadow(0px 1px 10px #ebeaea);
+}
+
+.benefitsFilter-2{
+    filter: drop-shadow(0px 1px 10px #d8d50cfe);
+}
+
+.benefitsFilter-3 {
+    filter: drop-shadow(0px 1px 10px #34b12bf5);
 }
 
 /* start of header style */
