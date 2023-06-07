@@ -2,9 +2,9 @@
 
 ## How Search Engine Optimization Can Help Your Business Thrive Online
 
-:computer: **Live Deployment**: https://jwilferd10.github.io/Horiseon-Refactor-Challenge/
+:computer: **Live Deployment**: https://jwilferd10.github.io/Horiseon-Search-Engine-Optimization/
 
-:computer: **Github Repository**: https://github.com/jwilferd10/Horiseon-Refactor-Challenge
+:computer: **Github Repository**: https://github.com/jwilferd10/Horiseon-Search-Engine-Optimization
 
 ## :open_file_folder: Table of Contents:
   - [Preview](#camera-preview)
