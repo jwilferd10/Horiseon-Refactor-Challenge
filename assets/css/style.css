@@ -36,6 +36,10 @@ body {
     border-radius: 50px;
 }
 
+.font-italic {
+    font-style: italic;
+}
+
 /* .benefits-filter {
     filter: drop-shadow(0px 6px 4px #c7c7c764);
 } */
@@ -127,6 +131,22 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+}
+
+#hero-card {
+    background: rgb(255 255 255 / 82%);
+    padding: 50px;
+    width: 50%;
+    height: 25%;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.text-center {
+    text-align: center;
 }
 
 /* end of hero style */
