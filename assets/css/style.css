@@ -143,6 +143,7 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+    position: relative;
 }
 
 #hero-card {
@@ -150,10 +151,12 @@ p {
     padding: 50px;
     width: 50%;
     margin: auto;
-    position: absolute;
+    position: sticky;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    max-height: calc(100% - 100px);
+    overflow-y: auto;
 }
 
 .text-center {
@@ -266,6 +269,13 @@ p {
         margin: 0;
     }
 
+    #hero-card {
+        left: 0;
+        right: 0;
+        margin: auto;
+        transform: translateY(-50%);
+    }
+
     .content {
         width: 90%;
     }
@@ -298,5 +308,8 @@ p {
 }
 
 @media (max-width: 400px) {
-    
+    .content div img {
+        max-height: 9.5rem;
+        margin: 0px 25px 15px 0px;
+    }
 }
