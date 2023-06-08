@@ -253,6 +253,12 @@ p {
 
 
 /* media queries */
+@media (max-width: 1101px) {
+    .header nav {
+        display: none;
+    }
+}
+
 @media (max-width: 800px) {
     * {
         box-sizing: unset;
