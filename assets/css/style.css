@@ -270,6 +270,10 @@ p {
         margin: 0;
     }
 
+    .header {
+        text-align: center;
+    }
+
     .content {
         width: 90%;
     }
