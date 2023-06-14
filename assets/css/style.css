@@ -91,6 +91,11 @@ body {
     font-size: 48px;
 }
 
+a:hover h1 {
+    color: #e7e7e7;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+
 .header h1 .seo {
     color: #aaada8;
 }
