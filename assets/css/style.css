@@ -5,6 +5,10 @@
     margin: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* changes background color of the body*/
 body {
     background-color: #d9dcd6;
